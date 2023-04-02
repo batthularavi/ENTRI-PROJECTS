@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ravi home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+    <style>
+        * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+        }
+        .selector-for-some-widget {
+  box-sizing: content-box;
+}
+        @media  only screen and (max-width:620px) {
+          nav,row,row1,.row2{width: 100%;}
+        }
+    
+    body {
+     background-color: black;
+        background-size: cover;
+      }
+  
+      .nav {
+        text-align:left;
+        padding: 0px;
+        background-color: greenyellow
+      }
+  
+      h1 {
+        text-transform: uppercase;
+background: linear-gradient(to right,orange,white,green);
+color: transparent;
+
+        text-align: center;
+        text-shadow: 2px 2px 2px red;
+      }
+      h2{     text-transform: uppercase;
+        color: orange;
+        text-align: center;
+        text-shadow: 2px 2px 2px red;}
+  
+      .nav a {
+        display: inline-block;
+        padding: 2px;
+        background-color: black;
+        color: gold;
+        border-radius: 10px;
+        border: 2px solid wheat;
+        text-align: center;
+        text-decoration: none;
+        overflow: hidden;
+        margin: 5px;
+      }
+  
+      .nav a:hover {
+        background-color: blueviolet;
+      }
+  
+   
+    
+      .d-block{height: 500px;}
+      .active,.nav a :hover{background-color:white;}
+ .row2{background-color: white;
+    text-align: center;
+
+    border: 5px groove purple;
+    padding: 20px;
+    position: relative;
+    top: 30px;
+   
+    left: 300px;
+    background-color: gray;
+width: 50%;
+height: 600px;}
+
+.pass{text-align: center;
+  position: relative;
+  top: 0px;
+  margin-top: 5px;
+    box-shadow: 2px 2px 5px orangered;
+    border: 5px groove gold;
+    background:black;
+    color:orangered;
+padding-left: 2px;
+border-radius: 5pc;
+width: 50%;
+height: 50px;}
+
+.ball{width: 20%;
+  position: relative;
+border-radius: 20px;}
+.ball:hover{background-color: orangered;}
+.row{color:yellowgreen;
+  padding: 5px;
+text-align: justify;
+text-align: center;}
+.col-md-6{border: 3px groove orangered;
+  padding: 5px;
+  box-shadow: 2px 2px 2px purple;
+border-radius: 20px;}
+ </style>
+</head>
+<body>
+    <h1>indian's tours and travels</h1>
+    <nav class="nav">
+      <a href="tours home.html" target="_blank" class="active">home</a>
+      <a href="tourplan.html"  target="_blank">plan tour</a>
+      <a href="visit.html"  target="_blank">where you visit</a>
+      <a href="tourconn.html"  target="_blank">contact us</a>
+      
+</nav>
+    <div id="carouselExampleAutoplaying" class="carousel slide  m-3" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="pac1.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="pac2.jpeg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="pac3.jpeg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+         <div class="container-fluid m-3">
+          <div class="row w-100">
+            <div class="col-md-6">
+              <h5>AIM</h5>
+              <p>To provide entertainment to tourists, organise tourism related activities such as cultural shows, fairs and festivals etc. To take over and develop and manage places of tourist interest, parks, lakes, avenues, beaches and recreational places, spots etc.</p>
+            </div>
+            <div class="col-md-6">
+            <h5>any queries</h5>
+            <p>     EMAIL ID  :  indiantourstravelguru@gmail.com</p>
+        <p>     PHONE NO  :  90xxxxxxxx</p>
+       
+       
+           </pre>
+           <P >VISIT AGAIN AND GO AGAIN</P>
+          </div>
+          </div>
+         </div>
+      <div class="container-fluid">
+      <div class="row2 responsive">
+        <h2>advanced booking of tour</h2>
+        <form>
+            <input type="text "  name="first name" placeholder="enter you first name" class="pass"><br><br>
+            <input type="text " name="second name" placeholder="enter you second name" class="pass"><br><br>
+            <input type="mail" name="mail id" placeholder="enter you mail id" class="pass"><br><br>
+            <input type="password" name="password"  placeholder="enter you password" class="pass"><br><br>
+            <input type="radio" name="skill" value="new customer"> new customer<br>
+            <input type="radio" name="skill" value="already customer">already customer <br> 
+            <br>
+         
+            <input type="date"placeholder="enter oyu date of tour" class="pass"><br><br>
+            <button class="ball">login</button><br><br>
+
+        </form>
+
+      </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+    crossorigin="anonymous"></script>
+
+      
+</body>
+</html>

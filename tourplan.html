@@ -1,0 +1,208 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ravi plane websites</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background-image: url(bgm.jpeg);
+      background-size: cover;
+    }
+
+    .nav {
+      text-align: left;
+      background-color: greenyellow
+    }
+
+    h1 {
+      text-transform: uppercase;
+background: linear-gradient(to right,orange,white,green);
+color: transparent;
+
+        text-align: center;
+        text-shadow: 2px 2px 2px red;
+      }
+
+    
+
+    .nav a {
+      display: inline-block;
+      padding: 1px;
+      background-color: black;
+      color: gold;
+      border-radius: 10px;
+      border: 2px solid wheat;
+      text-align: center;
+      text-decoration: none;
+      overflow: hidden;
+      margin: 5px;
+    }
+
+    .nav a:hover {
+      background-color: blueviolet;
+    }
+
+    .bu {
+      background-color: lightcoral;
+      padding: 2px;
+     position: absolute;
+      right:30px;
+      top: 60px;
+      border-radius: 4px;
+      margin-top: 2px;
+    }
+    .d-block{height: 500px;}
+    .active,.nav a :hover{background-color:white;}
+    h3{color: rebeccapurple;
+      margin-left: 20px;
+      text-align: center;
+      background-color: black;
+    font-weight: bolder;}
+  </style>
+</head>
+
+<body>
+  <h1>indian's tours and travels</h1>
+  <nav class="nav">
+    <a href="tours home.html">home</a>
+    <a href="tourplan.html" class="active">plan tour</a>
+    <a href="visit.html">where you visit</a>
+    <a href="tourconn.html">contact us</a>
+   
+    
+    <button class="bu  btn">login/sign up</button>
+  </nav>
+  <div id="carouselExampleIndicators" class="carousel slide m-3">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="tej.jpeg" class="d-block w-100 " alt="tajmahal">
+      </div>
+      <div class="carousel-item">
+        <img src="le.jpeg" class="d-block w-100 " alt="tour">
+      </div>
+      <div class="carousel-item">
+        <img src="bu.jpeg" class="d-block w-100 " alt="tour">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="card m-3" style="background-color:black; color: wheat;">
+    <div class="card-header">
+      Featured
+    </div>
+    <div class="card-body">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="frominput" class="form-label">from</label>
+          <input type="text" class="form-control" id="frominput" placeholder="from-location">
+        </div>
+        <div class="col-md-6">
+          <label for="inputto" class="form-label">to</label>
+          <input type="text" class="form-control" id="inputto" placeholder="to location">
+        </div>
+        <div class="col-12">
+          <label for="inputdate" class="form-label">date</label>
+          <input type="date" class="form-control" id="inputdate" placeholder="enter tha travel date">
+        </div>
+
+        <div class="col-md-6">
+          <label for="inputnumber of pass" class="form-label">number of passengers</label>
+          <input type="number" class="form-control" id="inputnumber of pass" placeholder="number of passengers">
+        </div>
+        <div class="col-md-4">
+          <label for="inputmode" class="form-label">mode</label>
+          <select id="inputState" class="form-select">
+            <option selected>Choose...</option>
+            <option>flight</option>
+            <option>train</option>
+            <option>bus</option>
+          </select>
+        </div>
+       
+
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">lets plan</button>
+        </div>
+        
+      </form>
+
+    </div>
+  </div>
+  <h3> latest packages for tour</h3>
+  <div class="row m-3">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body" style="background-color: black; color: white; border-radius: 10px;">
+          <h5 class="card-title">interest-freeEMI+up to 35% OFF</h5>
+          <p class="card-text">ON flight,HOTELand holiday packages your next trip</p>
+          <a href="#" class="btn btn-primary">BOOK NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body" style="background-color: black; color: white; border-radius: 10px;">
+          <h5 class="card-title">for a peacefull,spiritual break</h5>
+          <p class="card-text">grap upto 30% off on our specially-curated pilgrimage holiday packages</p>
+          <a href="#" class="btn btn-primary">BOOK NOW</a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+  <div class="row m-3">
+    <div class="col-sm-6 mb-3 mb-sm-0">
+      <div class="card">
+        <div class="card-body" style="background-color: black; color: white; border-radius: 10px;">
+          <h5 class="card-title">introducing: MAKE MY TRIP honeymoon packages</h5>
+          <p class="card-text">that# promise to wow </p>
+          <a href="#" class="btn btn-primary">BOOK NOW</a>
+        </div>
+      </div>
+    </div>
+    <div class="col-sm-6">
+      <div class="card">
+        <div class="card-body" style="background-color: black; color: white; border-radius: 10px;">
+          <h5 class="card-title">INSIDE:big discounts on flights,hotels,a holidays</h5>
+          <p class="card-text">spend with more SBI credit card for you next travel trip</p>
+          <a href="#" class="btn btn-primary">BOOK NOW</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
